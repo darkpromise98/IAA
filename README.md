@@ -59,6 +59,7 @@ We recommended the following dependencies.
 #### CUB-200-2011
 ```bash
 # googlenet
+# Contrastive loss and MS loss
 python run.py --dataset cub200 --backbone googlenet --loss MS --intra_lamda 0.8 --aug_num 3
 python run.py --dataset cub200 --backbone googlenet --loss Contrastive  --lr 3e-5  --intra_lamda 0.8 --aug_num 3
 ```
