@@ -8,12 +8,12 @@ It is built on top of the [MDR](https://github.com/kakaoenterprise/AAAI2021_MDR)
 Deep metric learning aims to learn an embedding space, where semantically similar samples are close together and dissimilar ones are repelled against. 
 To explore more hard and informative training signals for augmentation and generalization, recent methods focus on generating synthetic samples to boost metric learning losses. However, these methods just use the deterministic and class-independent generations (e.g., simple linear interpolation), which only can cover the limited part of distribution spaces around original samples. They have overlooked the wide characteristic changes of different classes and can not model abundant intra-class variations for generations. Therefore, generated samples not only lack rich semantics within the certain class, but also might be noisy signals to disturb training. In this paper, we propose a novel intra-class adaptive augmentation (IAA) framework for deep metric learning. We reasonably estimate intra-class variations for every class and generate adaptive synthetic samples to support hard samples mining and boost metric learning losses. Further, for most datasets that have a few samples within the class, we propose the neighbor correction to revise the inaccurate estimations, according to our correlation discovery where similar classes generally have similar variation distributions. Extensive experiments on five benchmarks show our method significantly improves and outperforms the state-of-the-art methods on retrieval performances by 3\%-6\%.
 
-#### The motivation of IAA:
+### Motivation of IAA
 
 ![image1](pdf/motivation.png)
 
 
-#### The framework of IAA:
+### Framework of IAA
 
 ![image2](pdf/framework.png)
 
