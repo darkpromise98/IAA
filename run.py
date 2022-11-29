@@ -2,8 +2,6 @@ import os
 import sys
 import time
 
-root_path = './'
-
 import argparse
 import random
 import numpy as np
@@ -198,8 +196,8 @@ def build_args():
     parser.add_argument("--map", default=0, type=int)
 
     parser.add_argument("--seed", default=random.randint(1, 1000), type=int)
-    parser.add_argument("--data", default=os.path.join(root_path, 'MyDataset'), type=str)
-    parser.add_argument("--weight_path", default=os.path.join(root_path, 'weights_models'), type=str)
+    parser.add_argument("--data", default='./MyDataset', type=str)
+    parser.add_argument("--weight_path", default='./weights_models', type=str)
     parser.add_argument("--save-dir", default="./results", type=str)
     parser.add_argument("--test", default=0, type=int)
     parser.add_argument('--save_models', default=False, action="store_true")
