@@ -37,27 +37,55 @@ The folder `./results` is the log path to record corresponding models and result
 The folder `./weights_models` is the path to put the weighting parameters of pretrained backbone networks, which can be customized by the argparse parameter `--weight_path`. 
 
 
-### CUB-200-2011
+#### CUB-200-2011
+```bash
 python run.py --dataset cub200 --backbone googlenet --loss MS --intra_lamda 0.8 --aug_num 3
 python run.py --dataset cub200 --backbone googlenet --loss Contrastive  --lr 3e-5  --intra_lamda 0.8 --aug_num 3
+```
 
-
-### Cars-196
+#### Cars-196
+```bash
 python run.py --dataset cars196 --backbone googlenet --loss MS --intra_lamda 0.8 --aug_num 3
 python run.py --dataset cars196 --backbone googlenet --loss Contrastive --intra_lamda 0.8 --aug_num 3
+```
 
-
-### Stanford Online Products
+#### Stanford Online Products
+```bash
 python run.py --dataset stanford --backbone googlenet --batch 180 --lr 1e-4 --loss MS --intra_lamda 0.6 --aug_num 3
 python run.py --dataset stanford --backbone googlenet --batch 180 --lr 1e-4 --loss Contrastive --intra_lamda 0.6 --aug_num 2
-
+```
+```bash
 python run.py --dataset stanford --backbone bninception --batch 256 --lr 1e-4 --loss MS -intra_lamda 0.5 --aug_num 3
 python run.py --dataset stanford --backbone resnet50 --batch 256 --lr 1e-4 --loss MS -intra_lamda 0.5 --aug_num 3
+```
 
-
-### In-Shop Clothes Retrieval
+#### In-Shop Clothes Retrieval
+```bash
 python run.py --dataset inshop --backbone googlenet --batch 180 --lr 1e-4 --loss MS --intra_lamda 0.6 --aug_num 3
 python run.py --dataset inshop --backbone googlenet --batch 180 --lr 1e-4 --loss Contrastive --intra_lamda 0.6 --aug_num 2
+```
 
+```bash
 python run.py --dataset inshop --backbone bninception --batch 256 --lr 1e-4 --loss MS --intra_lamda 0.5 --aug_num 3
 python run.py --dataset inshop --backbone resnet50 --batch 256 --lr 1e-4 --loss MS --intra_lamda 0.5 --aug_num 3
+```
+
+
+## Reference
+
+If you found this code useful, please cite the following paper:
+
+```
+@article{Fu2022IAA,
+author = {Zheren Fu and Zhendong Mao and Bo Hu and An-an Liu and Yongdong Zhang},
+title = {Intra-class Adaptive Augmentation with Neighbor Correctionfor Deep Metric Learning},
+year = {2022},
+journal = {IEEE Transactions on Multimedia},
+}
+```
+
+
+## License
+
+[Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
