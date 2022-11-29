@@ -33,11 +33,11 @@ We recommended the following dependencies.
 ## Training
 
 1. Set up the arguments.
-- The folder `MyDataset` is the root path of datasets using in this paper (including CUB, CARS, SOP), which can be customized by the argparse parameter `--data`. 
+   - The folder `MyDataset` is the root path of datasets using in this paper (including CUB, CARS, SOP), which can be customized by the argparse parameter `--data`. 
 
-- The folder `results` is the log path to record corresponding models and results of training, which can be customized by the argparse parameter `--save-dir`. 
+   - The folder `results` is the log path to record corresponding models and results of training, which can be customized by the argparse parameter `--save-dir`. 
 
-- The folder `weights_models` is the path to put the weighting parameters of pretrained backbone networks, which can be customized by the argparse parameter `--weight_path`. 
+   - The folder `weights_models` is the path to put the weighting parameters of pretrained backbone networks, which can be customized by the argparse parameter `--weight_path`. 
 
 2. Run `train.py` for different datasets.
 
