@@ -5,6 +5,7 @@ The paper is accepted by the IEEE Transactions on Multimedia, 2022.
 It is built on top of the [MDR](https://github.com/kakaoenterprise/AAAI2021_MDR).
 
 
+![alt tag](pdf/framework.png)
 
 
 ## Requirements
