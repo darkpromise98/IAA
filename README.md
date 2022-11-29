@@ -11,6 +11,7 @@ It is built on top of the [MDR](https://github.com/kakaoenterprise/AAAI2021_MDR)
 
 We recommended the following dependencies.
 
+- Python 3.8
 - torch 1.7.0
 - torchvision 0.8.0
 - numpy
