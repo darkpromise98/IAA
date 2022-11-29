@@ -18,9 +18,9 @@ The framework of IAA:
 We recommended the following dependencies.
 
 - Python 3.8
-- torch 1.7.0
-- torchvision 0.8.0
-- numpy
+- [torch](http://pytorch.org/) 1.7.0
+- [torchvision](https://github.com/pytorch/vision) 0.8.0
+- [numpy](http://www.numpy.org/)
 - tqdm
 - scipy
 - Pillow
