@@ -1,6 +1,6 @@
 # IAA: Intra-class Adaptive Augmentation with Neighbor Correctionfor Deep Metric Learning
 
-The PyTorch implementation of our manuscript.
+The PyTorch implementation of our T-MM 2022 paper.
 
 
 
