@@ -1,6 +1,8 @@
 # IAA: Intra-class Adaptive Augmentation with Neighbor Correctionfor Deep Metric Learning
 
-The PyTorch implementation of our T-MM 2022 paper [pdf](https://github.com/darkpromise98/IAA/blob/main/pdf/Intra-class%20Adaptive%20Augmentation%20with%20Neighbor%20Correction%20for%20Deep%20Metric%20Learning.pdf).
+The PyTorch codes for IAA described in the paper "[Intra-class Adaptive Augmentation with Neighbor Correctionfor Deep Metric Learning](https://github.com/darkpromise98/IAA/blob/main/pdf/Intra-class%20Adaptive%20Augmentation%20with%20Neighbor%20Correction%20for%20Deep%20Metric%20Learning.pdf)".
+The paper is accepted by the IEEE Transactions on Multimedia, 2022.
+
 
 
 
