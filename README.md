@@ -4,6 +4,9 @@ The PyTorch codes for our paper "[Intra-class Adaptive Augmentation with Neighbo
 It is built on top of the [MDR](https://github.com/kakaoenterprise/AAAI2021_MDR).
 
 
+![alt tag](pdf/motivation.png)
+
+
 ![alt tag](pdf/framework.png)
 
 
