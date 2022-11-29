@@ -6,6 +6,8 @@ The PyTorch implementation of our T-MM 2022 paper.
 
 ## Requirements
 
+We recommended the following dependencies.
+
 - torch 
 - torchvision 
 - tqdm
@@ -30,12 +32,14 @@ The PyTorch implementation of our T-MM 2022 paper.
 
 ## Training
 
-The folder `MyDataset` is the root path of datasets using in this paper (including CUB, CARS, SOP), which can be customized by the argparse parameter `--data`. 
+1. Set up the arguments.
+- The folder `MyDataset` is the root path of datasets using in this paper (including CUB, CARS, SOP), which can be customized by the argparse parameter `--data`. 
 
-The folder `./results` is the log path to record corresponding models and results of training, which can be customized by the argparse parameter `--save-dir`. 
+- The folder `results` is the log path to record corresponding models and results of training, which can be customized by the argparse parameter `--save-dir`. 
 
-The folder `./weights_models` is the path to put the weighting parameters of pretrained backbone networks, which can be customized by the argparse parameter `--weight_path`. 
+- The folder `weights_models` is the path to put the weighting parameters of pretrained backbone networks, which can be customized by the argparse parameter `--weight_path`. 
 
+2. Run `train.py` for different datasets.
 
 #### CUB-200-2011
 ```bash
