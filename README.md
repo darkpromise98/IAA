@@ -3,11 +3,14 @@
 The PyTorch codes for our paper "[Intra-class Adaptive Augmentation with Neighbor Correctionfor Deep Metric Learning](https://github.com/darkpromise98/IAA/blob/main/pdf/Intra-class%20Adaptive%20Augmentation%20with%20Neighbor%20Correction%20for%20Deep%20Metric%20Learning.pdf)", which is accepted by the IEEE Transactions on Multimedia, 2022.
 It is built on top of the [MDR](https://github.com/kakaoenterprise/AAAI2021_MDR).
 
+The motivation of IAA:
 
-![alt tag](pdf/motivation.png)
+![image1](pdf/motivation.png)
 
 
-![alt tag](pdf/framework.png)
+The framework of IAA:
+
+![image2](pdf/framework.png)
 
 
 ## Requirements
