@@ -92,6 +92,8 @@ journal = {IEEE Transactions on Multimedia},
 }
 ```
 
+## Contact
+If you have any quetions, please directly open a new issue or contact fzr@mail.ustc.edu.cn. Thanks!
 
 ## License
 
