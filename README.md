@@ -107,11 +107,13 @@ If you found this code useful, please cite the following paper:
 
 ```
 @article{Fu2022IAA,
-author = {Zheren Fu and Zhendong Mao and Bo Hu and An-an Liu and Yongdong Zhang},
-title = {Intra-class Adaptive Augmentation with Neighbor Correctionfor Deep Metric Learning},
-year = {2022},
-journal = {IEEE Transactions on Multimedia},
-}
+  author={Fu, Zheren and Mao, Zhendong and Hu, Bo and Liu, An-An and Zhang, Yongdong},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Intra-class Adaptive Augmentation with Neighbor Correction for Deep Metric Learning}, 
+  year={2022},
+  pages={1-14},
+  doi={10.1109/TMM.2022.3227414}
+  }
 ```
 
 ## Contact
