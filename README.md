@@ -55,6 +55,7 @@ We recommended the following dependencies.
    - The folder `weights_models` is the path to put the weighting parameters of pretrained backbone networks, which can be customized by the argparse parameter `--weight_path`. 
 
 2. Run `train.py` for different metric learning **losses** and **datasets**.
+3. If we need use the IAA framework, set  `--intra 1` (default); we also can train the baseline model by setting `--intra 0`.
 
 #### CUB-200-2011
 ```bash
