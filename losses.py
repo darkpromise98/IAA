@@ -118,5 +118,3 @@ class ContrastiveLoss(nn.Module):
         loss = loss / self.batch_size
         
         return loss
-
-
