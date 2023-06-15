@@ -43,7 +43,6 @@ We recommended the following dependencies.
 2. Extract the compressed file (tgz or zip) into `MyDataset/`, e.g., for Cars-196, put the files in the `MyDataset/Cars196`. Other naming ways can see the python files of realted datatsets in  `utils/dataset`, or modify these names in your way.
 
 
-
 ## Training
 
 1. Set up the related **arguments**.
