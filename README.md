@@ -3,6 +3,15 @@
 The PyTorch codes for our paper "[Intra-class Adaptive Augmentation with Neighbor Correction for Deep Metric Learning](https://arxiv.org/abs/2211.16264)", which is accepted by the IEEE Transactions on Multimedia, 2022 ([IEEE Xplore](https://ieeexplore.ieee.org/document/9973278)).
 It is built on top of the [MDR](https://github.com/kakaoenterprise/AAAI2021_MDR).
 
+<details open><summary>📣 The related work about deep metric learning. </summary><p>
+
+>[**Self-supervised Synthesis Ranking for Deep Metric Learning**](https://ieeexplore.ieee.org/document/9598814**)<br>
+> Accepted by T-CSVT 2022
+
+>[**Deep Metric Learning with Self-Supervised Ranking**](https://ojs.aaai.org/index.php/AAAI/article/view/16226)<br>
+> Accepted by AAAI 2021 
+
+
 ## Introduction
 
 Deep metric learning aims to learn an embedding space, where semantically similar samples are close together and dissimilar ones are repelled against. 
@@ -103,8 +112,6 @@ python run.py --dataset inshop --backbone resnet50 --batch 256 --lr 1e-4 --loss 
 
 ## Reference
 
-If you found this code useful, please cite the following paper:
-
 ```
 @article{Fu2022IAA,
   author={Fu, Zheren and Mao, Zhendong and Hu, Bo and Liu, An-An and Zhang, Yongdong},
@@ -114,6 +121,18 @@ If you found this code useful, please cite the following paper:
   pages={1-14},
   doi={10.1109/TMM.2022.3227414}
   }
+```
+
+```
+@ARTICLE{Fu2022SSR,
+  author={Fu, Zheren and Mao, Zhendong and Yan, Chenggang and Liu, An-An and Xie, Hongtao and Zhang, Yongdong},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Self-Supervised Synthesis Ranking for Deep Metric Learning}, 
+  year={2022},
+  volume={32},
+  number={7},
+  pages={4736-4750},
+  doi={10.1109/TCSVT.2021.3124908}}
 ```
 
 ## Contact
