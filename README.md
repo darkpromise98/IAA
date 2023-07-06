@@ -8,9 +8,7 @@ It is built on top of the [MDR](https://github.com/kakaoenterprise/AAAI2021_MDR)
 >[**Self-supervised Synthesis Ranking for Deep Metric Learning**](https://ieeexplore.ieee.org/document/9598814)<br>
 > Accepted by T-CSVT 2022
 
->[**Deep Metric Learning with Self-Supervised Ranking**](https://ojs.aaai.org/index.php/AAAI/article/view/16226)<br>
-> Accepted by AAAI 2021 
-
+</p></details>
 
 ## Introduction
 
